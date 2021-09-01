@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.75em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+section, footer {
+    margin-top: 75px;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #000F08;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: fixed;
+    width: 100vw;
+
+}
+
+.Logo {
+    fill: #FFFFFF;
+    margin-top: 28px;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu-item {
+    list-style: none;
+}
+
+.navbar-menu-item  a {
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.navbar-menu-item  a:hover {
+    border-bottom: solid 2px #A4452C;
+    color: #A4452C;
+    cursor: pointer;
+}
+
+/* CABECERA */
+.hero-section {
+    text-align: right;
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding: 6.25rem 3.125rem;
+}
+
+/* UBICACION */
+.donde {
+    text-align: center;
+    color: #000F08;
+}
+
+/* PROXIMA CHARLA */
+.sweet-brown {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    background:#A4452C;
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+.charla-texto {
+    padding-left: 50px;
+}
+
+/* EVENTOS ANTERIORES */
+#eventos-anteriores h2, 
+#eventos-anteriores h3 {
+    text-align: center;
+    padding: 30px 0;
+}
+.evento-anterior {
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.evento-anterior a{
+    text-decoration: none;
+    color: #000F08;
+}
+
+/* PIE */
+footer {
+    background: #000F08;
+    padding: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.iconos-pie ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 40px;
+}
+
+.iconos-pie ul a {
+    list-style: none;
+}
+
+.iconos-pie i{
+    color: #FFFFFF;
+    font-size: 100px;
+    padding: 5px 25px;
+}
+
+.articulo {
+    padding: 150px;
+    text-align: justify;
+    margin: auto;
+}
+
+.articulo h2 {
+    padding: 30px 0px;
+}
+
+.imgsimp {
+    width: 100%;
+}
